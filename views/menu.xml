@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem
+        id="card_game_menu"
+        name="Pokemon Card Game!"
+        sequence="10"/>
+    <menuitem
+        id="user_menu"
+        name="Jugadores"
+        action="card_game.user_action"
+        parent="card_game_menu"
+        sequence="10"/>
+    <menuitem
+        id="card_menu"
+        name="Cartas"
+        action="card_game.card_action"
+        parent="card_game_menu"
+        sequence="20"/>
+
+</odoo>
